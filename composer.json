@@ -1,0 +1,13 @@
+{
+    "name": "Php MVC with Composer",
+    "require": {
+        "eftec/bladeone": "^3.33",
+        "catfan/medoo": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        },
+        "files": ["app/Helper/Functions.php"]
+    }
+}
